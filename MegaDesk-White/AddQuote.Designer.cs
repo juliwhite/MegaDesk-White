@@ -84,6 +84,7 @@
             // 
             // textName
             // 
+            this.textName.BackColor = System.Drawing.SystemColors.Info;
             this.textName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textName.Location = new System.Drawing.Point(650, 60);
             this.textName.Name = "textName";
@@ -92,6 +93,7 @@
             // 
             // textWidth
             // 
+            this.textWidth.BackColor = System.Drawing.SystemColors.Info;
             this.textWidth.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textWidth.Location = new System.Drawing.Point(650, 150);
             this.textWidth.Name = "textWidth";
@@ -114,6 +116,7 @@
             // 
             // textDepth
             // 
+            this.textDepth.BackColor = System.Drawing.SystemColors.Info;
             this.textDepth.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textDepth.Location = new System.Drawing.Point(650, 250);
             this.textDepth.Name = "textDepth";
@@ -136,6 +139,7 @@
             // 
             // comboDrawers
             // 
+            this.comboDrawers.BackColor = System.Drawing.SystemColors.Info;
             this.comboDrawers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboDrawers.FormattingEnabled = true;
             this.comboDrawers.Location = new System.Drawing.Point(650, 350);
@@ -167,6 +171,7 @@
             // 
             // comboDeskMaterial
             // 
+            this.comboDeskMaterial.BackColor = System.Drawing.SystemColors.Info;
             this.comboDeskMaterial.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboDeskMaterial.FormattingEnabled = true;
             this.comboDeskMaterial.Location = new System.Drawing.Point(650, 450);
@@ -176,6 +181,7 @@
             // 
             // comboRushDays
             // 
+            this.comboRushDays.BackColor = System.Drawing.SystemColors.Info;
             this.comboRushDays.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboRushDays.FormattingEnabled = true;
             this.comboRushDays.Location = new System.Drawing.Point(650, 550);
