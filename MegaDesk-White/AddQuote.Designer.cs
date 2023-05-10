@@ -64,7 +64,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(100, 60);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(126, 46);
@@ -75,7 +75,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(100, 150);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(483, 46);
@@ -95,7 +95,7 @@
             this.textWidth.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textWidth.Location = new System.Drawing.Point(650, 150);
             this.textWidth.Name = "textWidth";
-            this.textWidth.Size = new System.Drawing.Size(100, 53);
+            this.textWidth.Size = new System.Drawing.Size(130, 53);
             this.textWidth.TabIndex = 4;
             this.textWidth.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.widthCharValidation);
             this.textWidth.Validating += new System.ComponentModel.CancelEventHandler(this.textWidth_Validating);
@@ -105,7 +105,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label4.Location = new System.Drawing.Point(100, 250);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(487, 46);
@@ -117,7 +117,7 @@
             this.textDepth.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textDepth.Location = new System.Drawing.Point(650, 250);
             this.textDepth.Name = "textDepth";
-            this.textDepth.Size = new System.Drawing.Size(100, 53);
+            this.textDepth.Size = new System.Drawing.Size(130, 53);
             this.textDepth.TabIndex = 7;
             this.textDepth.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.depthCharValidation);
             this.textDepth.Validating += new System.ComponentModel.CancelEventHandler(this.textDepth_Validating);
@@ -127,7 +127,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(100, 350);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(320, 46);
@@ -140,14 +140,14 @@
             this.comboDrawers.FormattingEnabled = true;
             this.comboDrawers.Location = new System.Drawing.Point(650, 350);
             this.comboDrawers.Name = "comboDrawers";
-            this.comboDrawers.Size = new System.Drawing.Size(121, 54);
+            this.comboDrawers.Size = new System.Drawing.Size(130, 54);
             this.comboDrawers.TabIndex = 9;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label5.Location = new System.Drawing.Point(100, 450);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(310, 46);
@@ -158,7 +158,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label6.Location = new System.Drawing.Point(100, 550);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(225, 46);
@@ -207,7 +207,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Info;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(229)))), ((int)(((byte)(141)))));
             this.ClientSize = new System.Drawing.Size(1268, 912);
             this.Controls.Add(this.submitButton);
             this.Controls.Add(this.comboRushDays);
