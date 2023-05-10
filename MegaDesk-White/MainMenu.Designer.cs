@@ -32,11 +32,14 @@
             this.viewAllQuotesButton = new System.Windows.Forms.Button();
             this.searchQuotesButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // addQuoteButton
             // 
-            this.addQuoteButton.Location = new System.Drawing.Point(100, 100);
+            this.addQuoteButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addQuoteButton.Location = new System.Drawing.Point(100, 149);
             this.addQuoteButton.Name = "addQuoteButton";
             this.addQuoteButton.Size = new System.Drawing.Size(300, 60);
             this.addQuoteButton.TabIndex = 0;
@@ -46,6 +49,7 @@
             // 
             // viewAllQuotesButton
             // 
+            this.viewAllQuotesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewAllQuotesButton.Location = new System.Drawing.Point(100, 250);
             this.viewAllQuotesButton.Name = "viewAllQuotesButton";
             this.viewAllQuotesButton.Size = new System.Drawing.Size(300, 60);
@@ -56,7 +60,8 @@
             // 
             // searchQuotesButton
             // 
-            this.searchQuotesButton.Location = new System.Drawing.Point(100, 400);
+            this.searchQuotesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchQuotesButton.Location = new System.Drawing.Point(100, 354);
             this.searchQuotesButton.Name = "searchQuotesButton";
             this.searchQuotesButton.Size = new System.Drawing.Size(300, 60);
             this.searchQuotesButton.TabIndex = 2;
@@ -66,7 +71,8 @@
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(100, 550);
+            this.exitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exitButton.Location = new System.Drawing.Point(100, 493);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(300, 60);
             this.exitButton.TabIndex = 3;
@@ -74,11 +80,23 @@
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::MegaDesk_White.Properties.Resources.deskPicture1;
+            this.pictureBox1.Location = new System.Drawing.Point(625, 177);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(568, 388);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(229)))), ((int)(((byte)(141)))));
             this.ClientSize = new System.Drawing.Size(1613, 894);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.searchQuotesButton);
             this.Controls.Add(this.viewAllQuotesButton);
@@ -87,6 +105,7 @@
             this.MinimizeBox = false;
             this.Name = "MainMenu";
             this.Text = "MegaDesk ";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -97,6 +116,7 @@
         private System.Windows.Forms.Button viewAllQuotesButton;
         private System.Windows.Forms.Button searchQuotesButton;
         private System.Windows.Forms.Button exitButton;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
